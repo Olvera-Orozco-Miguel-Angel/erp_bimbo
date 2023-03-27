@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body {
+    font-family: "Raleway", sans-serif;
+    color: #FFFF;
+    background-color: #585959;
+  }
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0;
+    max-width: 1200px;
+    
+}
+.contenedor_elementos{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    align-items: center;
+}
+.imgstyle{
+    width: 80%;
+
+}
+
+.flex_mensaje{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    align-self: flex-start;
+     width: 180px;
+     height: 60px;
+     padding: 20px;
+     border-radius: 15px;
+     background-color: whitesmoke;
+     color: black;
+  text-align: center;
+  position: relative;
+  top: 30px;
+ }

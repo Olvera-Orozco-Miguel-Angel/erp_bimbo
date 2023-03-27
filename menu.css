@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body {
+    font-family: "Raleway", sans-serif;
+    color: whitesmoke;
+    background-color: whitesmoke;
+  }
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0;
+    max-width: 1200px;
+    
+}  
+img{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #585959  ;
+    width: 200px;
+    height: 80px;
+    padding: 15px;
+    font-weight: bold;
+ align-self: flex-end ;
+ font-size: 20px;
+text-decoration: underline;
+
+}
+.contenedorHijo{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.flex_container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+    
+
+}
+
+.buscar{
+    width: 150px;
+}
+.flex_nieto{
+    display: grid;
+    grid-template-rows: repeat(2,300px);
+    align-items: flex-end;
+    
+}
+h1{
+    margin-top: 30px;
+    color: black;
+}
